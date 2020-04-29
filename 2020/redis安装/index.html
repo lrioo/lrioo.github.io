@@ -147,7 +147,7 @@
 
           <h1 id="下载">下载</h1>
 <p>官网下载最新版本的安装包</p>
-<pre><code>  cd /usr/local
+<pre><code class="language-language-bash" data-lang="language-bash">  cd /usr/local
   wget http://download.redis.io/releases/redis-5.0.5.tar.gz
 </code></pre><blockquote>
 <p><a href="http://download.redis.io/releases/">历史版本库地址</a></p>
@@ -157,16 +157,16 @@
 </blockquote>
 <h1 id="安装">安装</h1>
 <h4 id="第一步解压"><strong>第一步</strong>：解压</h4>
-<pre><code>  cd /usr/local
+<pre><code class="language-language-bash" data-lang="language-bash">  cd /usr/local
   tar -zxvf redis-5.0.5.tar.gz
   mv redis-5.0.5 redis
 </code></pre><h4 id="第二步安装-gcc-环境"><strong>第二步</strong>：安装 gcc 环境</h4>
-<pre><code>  yum install gcc-c++
+<pre><code class="language-language-bash" data-lang="language-bash">  yum install gcc-c++
 </code></pre><h4 id="第三步编译"><strong>第三步</strong>：编译</h4>
-<pre><code>  cd /usr/local/redis
+<pre><code class="language-language-bash" data-lang="language-bash">  cd /usr/local/redis
   make
 </code></pre><h4 id="第四步安装"><strong>第四步</strong>：安装</h4>
-<pre><code>  cd /usr/local/redis/src
+<pre><code class="language-language-bash" data-lang="language-bash">  cd /usr/local/redis/src
   make install
 </code></pre><h1 id="配置">配置</h1>
 <h4 id="第一步修改启动脚本"><strong>第一步</strong>：修改启动脚本</h4>
@@ -177,15 +177,15 @@
 </ol>
 <p>![img](file:///C:/Users/shiji/Documents/My Knowledge/temp/31f1404f-751f-4e17-855e-3eb06e3d92c9/128/index_files/cc75a73d-a801-412f-8273-801fef0a8794.png)</p>
 <p>将图中的内容修改为当前部署环境的真实路径即可。</p>
-<pre><code>  vim /usr/local/redis/utils/redis_init_script
+<pre><code class="language-language-bash" data-lang="language-bash">  vim /usr/local/redis/utils/redis_init_script
 </code></pre><ol start="2">
 <li>
 <h5 id="将redis_init_script拷贝到etcinitd目录下并重命名为redis">将redis_init_script拷贝到/etc/init.d目录下，并重命名为redis</h5>
 </li>
 </ol>
-<pre><code>cp /usr/local/redis/utils/redis_init_script /etc/init.d/redis
+<pre><code class="language-language-bash" data-lang="language-bash">cp /usr/local/redis/utils/redis_init_script /etc/init.d/redis
 </code></pre><h4 id="第二步修改配置文件"><strong>第二步</strong>：修改配置文件</h4>
-<pre><code> vim /usr/local/redis/redis.conf
+<pre><code class="language-language-bash" data-lang="language-bash"> vim /usr/local/redis/redis.conf
 </code></pre><ol>
 <li>
 <h5 id="注释掉-bind-127001-这一行解决只能特定网段连接的限制">注释掉 bind 127.0.0.1 这一行（解决只能特定网段连接的限制）</h5>
@@ -201,7 +201,7 @@
 </li>
 </ol>
 <h4 id="第三步创建配置文件目录并迁移文件"><strong>第三步</strong>：创建配置文件目录，并迁移文件</h4>
-<pre><code>  mkdir -p /etc/conf/redis
+<pre><code class="language-language-bash" data-lang="language-bash">  mkdir -p /etc/conf/redis
   cp /usr/local/redis/redis.conf /etc/conf/redis/6379.conf
 </code></pre><p>文件名对应端口号</p>
 <h4 id="第四步设置开机启动"><strong>第四步</strong>：设置开机启动</h4>
