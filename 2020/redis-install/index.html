@@ -131,7 +131,6 @@
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://lrioo.github.io/categories/%E8%BD%AF%E4%BB%B6/%E7%A1%AC%E4%BB%B6/"> 软件/硬件 </a>
                         
                 </span>
                 <span class="post-word-count">, 583 words</span>
@@ -217,12 +216,12 @@
 <h5 id="安装redis执行make-test时遇到you-need-tcl-85-or-newer-in-order-to-run-the-redis-test"><strong>安装Redis，执行make test时遇到You need tcl 8.5 or newer in order to run the Redis test</strong></h5>
 <p>![img](file:///C:/Users/shiji/Documents/My Knowledge/temp/31f1404f-751f-4e17-855e-3eb06e3d92c9/128/index_files/0.9583663870443826.png)</p>
 <h5 id="解决方案安装tcl"><strong>解决方案</strong>：安装tcl</h5>
-<pre><code> yum install tcl
+<pre><code class="language-language-bash" data-lang="language-bash"> yum install tcl
 </code></pre><h5 id="dumprdb-文件位置"><strong>dump.rdb 文件位置</strong></h5>
 <ol>
 <li>查看dump.rdb的位置</li>
 </ol>
-<pre><code> find / -name dump.rdb
+<pre><code class="language-language-bash" data-lang="language-bash"> find / -name dump.rdb
 </code></pre><p>​		显示为<code>/dump.rdb</code></p>
 <ol start="2">
 <li>
@@ -238,7 +237,7 @@
 <p>创建文件夹，并将dump.rdb文件移动到相应的文件夹下</p>
 </li>
 </ol>
-<pre><code>  mkdir -p /data/redis
+<pre><code class="language-language-bash" data-lang="language-bash">  mkdir -p /data/redis
   mv /dump.rdb /data/redis/
 </code></pre><ol start="6">
 <li>启动redis服务</li>
