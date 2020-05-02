@@ -7,26 +7,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Redis安装 - Rio`s Blog</title>
         <meta name="Description" content="C&#39;est La Vie"><meta property="og:title" content="Redis安装" />
-<meta property="og:description" content="下载 官网下载最新版本的安装包
-1 2  cd /usr/local wget http://download.redis.io/releases/redis-5.0.5.tar.gz   历史版本库地址
-http://download.redis.io/releases/
-安装 第一步：解压 1 2 3  cd /usr/local tar -zxvf redis-5.0.5.tar.gz mv redis-5.0.5 redis   第二步：安装 gcc 环境 1  yum install gcc-c&#43;&#43;   第三步：编译 1 2  cd /usr/local/redis make   第四步：安装 1 2  cd /usr/local/redis/src make install   配置 第一步：修改启动脚本   修改redis内置的启动脚本     将图中的内容修改为当前部署环境的真实路径即可。
-1  vim /usr/local/redis/utils/redis_init_script    将redis_init_script拷贝到/etc/init." />
+<meta property="og:description" content="下载
+官网下载最新版本的安装包
+
+
+1
+2
+
+
+  cd /usr/local
+  wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+
+
+历史版本库地址
+http://download.redis.io/releases/" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lrioo.github.io/redis-install/" />
+<meta property="og:url" content="https://lrioo.github.io/2017/redis-install/" />
 <meta property="article:published_time" content="2017-03-29T22:19:04+08:00" />
 <meta property="article:modified_time" content="2020-05-02T23:55:34+08:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Redis安装"/>
-<meta name="twitter:description" content="下载 官网下载最新版本的安装包
-1 2  cd /usr/local wget http://download.redis.io/releases/redis-5.0.5.tar.gz   历史版本库地址
-http://download.redis.io/releases/
-安装 第一步：解压 1 2 3  cd /usr/local tar -zxvf redis-5.0.5.tar.gz mv redis-5.0.5 redis   第二步：安装 gcc 环境 1  yum install gcc-c&#43;&#43;   第三步：编译 1 2  cd /usr/local/redis make   第四步：安装 1 2  cd /usr/local/redis/src make install   配置 第一步：修改启动脚本   修改redis内置的启动脚本     将图中的内容修改为当前部署环境的真实路径即可。
-1  vim /usr/local/redis/utils/redis_init_script    将redis_init_script拷贝到/etc/init."/>
+<meta name="twitter:description" content="下载
+官网下载最新版本的安装包
+
+
+1
+2
+
+
+  cd /usr/local
+  wget http://download.redis.io/releases/redis-5.0.5.tar.gz
+
+
+历史版本库地址
+http://download.redis.io/releases/"/>
 <meta name="application-name" content="Rio&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="Rio&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lrioo.github.io/redis-install/" /><link rel="next" href="https://lrioo.github.io/welcome/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.en.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lrioo.github.io/2017/redis-install/" /><link rel="prev" href="https://lrioo.github.io/2017/welcome/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.en.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -34,16 +52,16 @@ http://download.redis.io/releases/
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/lrioo.github.io\/redis-install\/"
+            "@id": "https:\/\/lrioo.github.io\/2017\/redis-install\/"
         },"image": {
                 "@type": "ImageObject",
                 "url": "https:\/\/lrioo.github.io\/cover.png",
                 "width":  800 ,
                 "height":  600 
             },"genre": "posts","keywords": "Redis, 安装配置","wordcount":  159 ,
-        "url": "https:\/\/lrioo.github.io\/redis-install\/","datePublished": "2017-03-29T22:19:04+08:00","dateModified": "2020-05-02T23:55:34+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        "url": "https:\/\/lrioo.github.io\/2017\/redis-install\/","datePublished": "2017-03-29T22:19:04+08:00","dateModified": "2020-05-02T23:55:34+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
-                "name": "xxxx",
+                "name": "rio",
                 "logo": {
                 "@type": "ImageObject",
                 "url": "https:\/\/lrioo.github.io\/logo.png",
@@ -65,7 +83,7 @@ http://download.redis.io/releases/
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/categories/documentation/"> Docs </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="https://github.com/lrioo" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item language" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
-                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/redis-install/" selected>English</option></select>
+                        <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/2017/redis-install/" selected>English</option></select>
                     </a><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
@@ -112,7 +130,7 @@ http://download.redis.io/releases/
                 </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/categories/documentation/" title="">Docs</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="https://github.com/lrioo" title="GitHub" rel="noopener noreffer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a><a href="javascript:void(0);" class="menu-item" title="Select Language">English<i class="fas fa-chevron-right fa-fw"></i>
-                    <select class="language-select" onchange="location = this.value;"><option value="/redis-install/" selected>English</option></select>
+                    <select class="language-select" onchange="location = this.value;"><option value="/2017/redis-install/" selected>English</option></select>
                 </a></div>
     </div>
 </header>
@@ -133,7 +151,7 @@ http://download.redis.io/releases/
                             </a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2017-03-29>2017-03-29</time>&nbsp;
                 <i class="fas fa-pencil-alt fa-fw"></i>about 159 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>1 min&nbsp;<span id="/redis-install/" class="leancloud_visitors" data-flag-title="Redis安装">
+                <i class="far fa-clock fa-fw"></i>1 min&nbsp;<span id="/2017/redis-install/" class="leancloud_visitors" data-flag-title="Redis安装">
                         <i class="far fa-eye fa-fw"></i><span class=leancloud-visitors-count></span>&nbsp;views
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static">
@@ -397,8 +415,7 @@ http://download.redis.io/releases/
 <p><a href="https://www.cnblogs.com/therunningfish/p/9535022.html">https://www.cnblogs.com/therunningfish/p/9535022.html</a></p>
 <h4 id="相关问题-1"><strong>相关问题</strong></h4>
 <p><a href="https://www.cnblogs.com/zhaoshunjie/p/5907029.html">https://www.cnblogs.com/zhaoshunjie/p/5907029.html</a></p>
-<p><a href="https://blog.csdn.net/shn1994/article/details/86527283">https://blog.csdn.net/shn1994/article/details/86527283</a></p>
-</div><div class="post-footer" id="post-footer">
+<p><a href="https://blog.csdn.net/shn1994/article/details/86527283">https://blog.csdn.net/shn1994/article/details/86527283</a></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -409,10 +426,10 @@ http://download.redis.io/releases/
         </div>
         <div class="post-info-line">
             <div class="post-info-md"><span>
-                            <a class="link-to-markdown" href="/redis-install/index.md" target="_blank">Read Markdown</a>
+                            <a class="link-to-markdown" href="/2017/redis-install/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://lrioo.github.io/redis-install/" data-title="Redis安装" data-hashtags="Redis,安装配置"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lrioo.github.io/redis-install/" data-hashtag="Redis"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://lrioo.github.io/redis-install/" data-title="Redis安装"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://lrioo.github.io/redis-install/" data-title="Redis安装" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://lrioo.github.io/redis-install/" data-title="Redis安装" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://lrioo.github.io/redis-install/" data-title="Redis安装"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装" data-hashtags="Redis,安装配置"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://lrioo.github.io/2017/redis-install/" data-hashtag="Redis"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -424,8 +441,7 @@ http://download.redis.io/releases/
         </section>
     </div>
 
-    <div class="post-nav">
-            <a href="/welcome/" class="next" rel="next" title="Welcome">Welcome<i class="fas fa-angle-right fa-fw"></i></a></div>
+    <div class="post-nav"><a href="/2017/welcome/" class="prev" rel="prev" title="Welcome"><i class="fas fa-angle-left fa-fw"></i>Welcome</a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
@@ -441,6 +457,6 @@ http://download.redis.io/releases/
                 <i class="fas fa-comment fa-fw"></i>
             </a>
         </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript">
-    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"visitor":true}},"headerMode":{"desktop":"auto","mobile":"auto"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","noResultsFound":"No results found","type":"algolia"},"twemoji":true};
+    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","enableQQ":false,"highlight":true,"lang":"en","pageSize":10,"placeholder":"Your comment ...","recordIP":true,"visitor":true}},"headerMode":{"desktop":"fixed","mobile":"auto"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.en","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","noResultsFound":"No results found","type":"algolia"},"twemoji":true};
 </script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/valine/Valine.min.js"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

@@ -2,8 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://lrioo.github.io/posts/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lrioo.github.io/welcome/</loc><lastmod>2020-04-30T21:06:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lrioo.github.io/about/</loc><lastmod>2020-04-30T21:06:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lrioo.github.io/</loc><lastmod>2020-04-30T21:06:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
@@ -23,8 +21,9 @@
                     hreflang="en"
                     href="https://lrioo.github.io/categories/"
                     /></url><url>
+            <loc>https://lrioo.github.io/posts/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lrioo.github.io/tags/redis/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lrioo.github.io/redis-install/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://lrioo.github.io/2017/redis-install/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://lrioo.github.io/tags/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
@@ -35,4 +34,5 @@
                     href="https://lrioo.github.io/tags/"
                     /></url><url>
             <loc>https://lrioo.github.io/tags/%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://lrioo.github.io/categories/%E8%BD%AF%E4%BB%B6-%E7%A1%AC%E4%BB%B6/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
+            <loc>https://lrioo.github.io/categories/%E8%BD%AF%E4%BB%B6-%E7%A1%AC%E4%BB%B6/</loc><lastmod>2020-05-02T23:55:34&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://lrioo.github.io/2017/welcome/</loc><lastmod>2020-04-30T21:06:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

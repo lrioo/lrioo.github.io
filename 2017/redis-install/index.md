@@ -15,6 +15,7 @@
 <http://download.redis.io/releases/>
 
 
+<!--more-->
 
 ## 安装
 
