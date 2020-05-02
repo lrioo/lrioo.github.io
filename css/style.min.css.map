@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "style.zh-cn.min.css",
+	"file": "style.min.css",
 	"sourceRoot": "G:/Hugo/sites/blog",
 	"sources": [
 		"themes/LoveIt/assets/css/style.template.scss",
