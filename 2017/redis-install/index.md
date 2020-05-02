@@ -14,8 +14,9 @@
 
 <http://download.redis.io/releases/>
 
-
 <!--more-->
+<br />
+<br />
 
 ## 安装
 
@@ -47,7 +48,8 @@
   make install
 ```
 
-
+<br />
+<br />
 
 ## 配置
 
@@ -102,7 +104,8 @@
 
 \- 设为开机关闭: chkconfig redis off
 
-
+<br />
+<br />
 
 ## 相关问题
 
@@ -116,7 +119,7 @@
  yum install tcl
 ```
 
-
+<br />
 
 #### **dump.rdb 文件位置**
 
@@ -143,7 +146,8 @@
 
 6. 启动redis服务
 
-
+<br />
+<br />
 
 ## 参考
 
