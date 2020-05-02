@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Redis on Rio`s Blog</title>
-    <link>https://lrioo.github.io/tags/redis/</link>
-    <description>Recent content in Redis on Rio`s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <copyright>All rights reserved - 2020</copyright>
-    <lastBuildDate>Wed, 29 Apr 2020 22:19:04 +0800</lastBuildDate>
-    
-	<atom:link href="https://lrioo.github.io/tags/redis/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Redis安装</title>
-      <link>https://lrioo.github.io/2020/redis-install/</link>
-      <pubDate>Wed, 29 Apr 2020 22:19:04 +0800</pubDate>
-      
-      <guid>https://lrioo.github.io/2020/redis-install/</guid>
-      <description>下载 官网下载最新版本的安装包 cd /usr/local wget http://download.redis.io/releases/redis-5.0.5.tar.gz 历史版本库地址 http://download.redis.io/releases/ 安装 第一步：解压 cd /usr/local tar -zxvf redis-5.0.5.tar.gz mv redis-5.0.5 redis 第二步：安装 gcc 环境 yum install gcc-c++ 第三步：编译 cd /usr/local/redis make 第四步：安装 cd</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Redis - Tag - Rio`s Blog</title>
+        <link>https://lrioo.github.io/tags/redis/</link>
+        <description>Redis - Tag - Rio`s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shijianzhende1314@163.com (rio)</managingEditor>
+            <webMaster>shijianzhende1314@163.com (rio)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Mar 2017 22:19:04 &#43;0800</lastBuildDate><atom:link href="https://lrioo.github.io/tags/redis/" rel="self" type="application/rss+xml" /><item>
+    <title>Redis安装</title>
+    <link>https://lrioo.github.io/redis-install/</link>
+    <pubDate>Wed, 29 Mar 2017 22:19:04 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://lrioo.github.io/redis-install/</guid>
+    <description><![CDATA[下载 官网下载最新版本的安装包
+1 2  cd /usr/local wget http://download.redis.io/releases/redis-5.0.5.tar.gz   历史版本库地址
+http://download.redis.io/releases/
+安装 第一步：解压 1 2 3  cd /usr/local tar -zxvf redis-5.0.5.tar.gz mv redis-5.0.5 redis   第二步：安装 gcc 环境 1  yum install gcc-c++   第三步：编译 1 2  cd /usr/local/redis make   第四步：安装 1 2  cd /usr/local/redis/src make install   配置 第一步：修改启动脚本   修改redis内置的启动脚本     将图中的内容修改为当前部署环境的真实路径即可。
+1  vim /usr/local/redis/utils/redis_init_script    将redis_init_script拷贝到/etc/init.]]></description>
+</item></channel>
 </rss>
