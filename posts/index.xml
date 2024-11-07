@@ -1,35 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - Rio`s Blog</title>
-        <link>https://lrioo.github.io/posts/</link>
+        <link>http://localhost:1313/posts/</link>
         <description>所有文章 | Rio`s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>shijianzhende1314@163.com (Rio)</managingEditor>
-            <webMaster>shijianzhende1314@163.com (Rio)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Mar 2017 22:19:04 &#43;0800</lastBuildDate><atom:link href="https://lrioo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shijianzhende1314@163.com (Rio)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 29 Mar 2017 22:19:04 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Redis安装</title>
-    <link>https://lrioo.github.io/2017/redis-install/</link>
+    <link>http://localhost:1313/2017/redis-install/</link>
     <pubDate>Wed, 29 Mar 2017 22:19:04 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://lrioo.github.io/2017/redis-install/</guid>
+    <guid>http://localhost:1313/2017/redis-install/</guid>
     <description><![CDATA[<h2 id="下载">下载</h2>
 <p>官网下载最新版本的安装包</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  cd /usr/local
-  wget http://download.redis.io/releases/redis-5.0.5.tar.gz
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl">  <span class="n">cd</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
+</span></span><span class="line"><span class="cl">  <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">download</span><span class="o">.</span><span class="n">redis</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">redis</span><span class="o">-</span><span class="mf">5.0</span><span class="o">.</span><span class="mf">5.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><a href="http://download.redis.io/releases/" target="_blank" rel="noopener noreffer">历史版本库地址</a></p>
-<p><a href="http://download.redis.io/releases/">http://download.redis.io/releases/</a></p>]]></description>
+<p><a href="http://download.redis.io/releases/" target="_blank" rel="noopener noreffer">http://download.redis.io/releases/</a></p>]]></description>
 </item><item>
     <title>Welcome</title>
-    <link>https://lrioo.github.io/2017/welcome/</link>
+    <link>http://localhost:1313/2017/welcome/</link>
     <pubDate>Sun, 29 Jan 2017 21:42:37 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://lrioo.github.io/2017/welcome/</guid>
+    <guid>http://localhost:1313/2017/welcome/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

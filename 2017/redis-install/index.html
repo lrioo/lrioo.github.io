@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head>
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
@@ -22,11 +22,11 @@
 历史版本库地址
 http://download.redis.io/releases/" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://lrioo.github.io/2017/redis-install/" />
+<meta property="og:url" content="http://localhost:1313/2017/redis-install/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2017-03-29T22:19:04+08:00" />
-<meta property="article:modified_time" content="2020-05-02T23:55:34+08:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Redis安装"/>
+<meta property="article:modified_time" content="2020-05-05T16:33:30+08:00" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Redis安装"/>
 <meta name="twitter:description" content="下载
 官网下载最新版本的安装包
 
@@ -44,7 +44,7 @@ http://download.redis.io/releases/"/>
 <meta name="application-name" content="Rio&#39;s Blog">
 <meta name="apple-mobile-web-app-title" content="Rio&#39;s Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#ffffff"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://lrioo.github.io/2017/redis-install/" /><link rel="prev" href="https://lrioo.github.io/2017/welcome/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/2017/redis-install/" /><link rel="prev" href="http://localhost:1313/2017/welcome/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -52,19 +52,19 @@ http://download.redis.io/releases/"/>
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https:\/\/lrioo.github.io\/2017\/redis-install\/"
+            "@id": "http:\/\/localhost:1313\/2017\/redis-install\/"
         },"image": {
                 "@type": "ImageObject",
-                "url": "https:\/\/lrioo.github.io\/cover.png",
+                "url": "http:\/\/localhost:1313\/cover.png",
                 "width":  800 ,
                 "height":  600 
             },"genre": "posts","keywords": "Redis, 安装配置","wordcount":  598 ,
-        "url": "https:\/\/lrioo.github.io\/2017\/redis-install\/","datePublished": "2017-03-29T22:19:04+08:00","dateModified": "2020-05-02T23:55:34+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        "url": "http:\/\/localhost:1313\/2017\/redis-install\/","datePublished": "2017-03-29T22:19:04+08:00","dateModified": "2020-05-05T16:33:30+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
                 "@type": "Organization",
                 "name": "Rio",
                 "logo": {
                 "@type": "ImageObject",
-                "url": "https:\/\/lrioo.github.io\/logo.png",
+                "url": "http:\/\/localhost:1313\/logo.png",
                 "width":  127 ,
                 "height":  40 
                 }
@@ -147,9 +147,7 @@ http://download.redis.io/releases/"/>
                             </a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2017-03-29>2017-03-29</time>&nbsp;
                 <i class="fas fa-pencil-alt fa-fw"></i>约 598 字&nbsp;
-                <i class="far fa-clock fa-fw"></i>预计阅读 2 分钟&nbsp;<span id="/2017/redis-install/" class="leancloud_visitors" data-flag-title="Redis安装">
-                        <i class="far fa-eye fa-fw"></i><span class=leancloud-visitors-count></span>&nbsp;次阅读
-                    </span>&nbsp;</div>
+                <i class="far fa-clock fa-fw"></i>预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -213,65 +211,65 @@ http://download.redis.io/releases/"/>
 <p>官网下载最新版本的安装包</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  cd /usr/local
-  wget http://download.redis.io/releases/redis-5.0.5.tar.gz
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl">  <span class="n">cd</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
+</span></span><span class="line"><span class="cl">  <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">download</span><span class="o">.</span><span class="n">redis</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">redis</span><span class="o">-</span><span class="mf">5.0</span><span class="o">.</span><span class="mf">5.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p><a href="http://download.redis.io/releases/" target="_blank" rel="noopener noreffer">历史版本库地址</a></p>
-<p><a href="http://download.redis.io/releases/">http://download.redis.io/releases/</a></p>
-<p><br />
-<br /></p>
+<p><a href="http://download.redis.io/releases/" target="_blank" rel="noopener noreffer">http://download.redis.io/releases/</a></p>
+<br />
+<br />
 <h2 id="安装">安装</h2>
 <h3 id="第一步解压"><strong>第一步</strong>：解压</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  cd /usr/local
-  tar -zxvf redis-5.0.5.tar.gz
-  mv redis-5.0.5 redis
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  cd /usr/local
+</span></span><span class="line"><span class="cl">  tar -zxvf redis-5.0.5.tar.gz
+</span></span><span class="line"><span class="cl">  mv redis-5.0.5 redis
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="第二步安装-gcc-环境"><strong>第二步</strong>：安装 gcc 环境</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  yum install gcc-c++
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  yum install gcc-c++
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="第三步编译"><strong>第三步</strong>：编译</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  cd /usr/local/redis
-  make
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  cd /usr/local/redis
+</span></span><span class="line"><span class="cl">  make
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="第四步安装"><strong>第四步</strong>：安装</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  cd /usr/local/redis/src
-  make install
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  cd /usr/local/redis/src
+</span></span><span class="line"><span class="cl">  make install
+</span></span></code></pre></td></tr></table>
 </div>
-</div><p><br />
-<br /></p>
+</div><br />
+<br />
 <h2 id="配置">配置</h2>
 <h3 id="第一步修改启动脚本"><strong>第一步</strong>：修改启动脚本</h3>
 <ol>
@@ -290,11 +288,11 @@ http://download.redis.io/releases/"/>
 <p>  将图中的内容修改为当前部署环境的真实路径即可。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  vim /usr/local/redis/utils/redis_init_script
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  vim /usr/local/redis/utils/redis_init_script
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="2">
 <li>
@@ -303,20 +301,20 @@ http://download.redis.io/releases/"/>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  cp /usr/local/redis/utils/redis_init_script /etc/init.d/redis
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  cp /usr/local/redis/utils/redis_init_script /etc/init.d/redis
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="第二步修改配置文件"><strong>第二步</strong>：修改配置文件</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback"> vim /usr/local/redis/redis.conf
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> vim /usr/local/redis/redis.conf
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol>
 <li>
@@ -335,13 +333,13 @@ http://download.redis.io/releases/"/>
 <h3 id="第三步创建配置文件目录并迁移文件"><strong>第三步</strong>：创建配置文件目录，并迁移文件</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  mkdir -p /etc/conf/redis
-  cp /usr/local/redis/redis.conf /etc/conf/redis/6379.conf
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  mkdir -p /etc/conf/redis
+</span></span><span class="line"><span class="cl">  cp /usr/local/redis/redis.conf /etc/conf/redis/6379.conf
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>文件名对应端口号</p>
 <h3 id="第四步设置开机启动"><strong>第四步</strong>：设置开机启动</h3>
@@ -349,8 +347,8 @@ http://download.redis.io/releases/"/>
 <p>- 关闭redis命令: service redis stop</p>
 <p>- 设为开机启动: chkconfig redis on</p>
 <p>- 设为开机关闭: chkconfig redis off</p>
-<p><br />
-<br /></p>
+<br />
+<br />
 <h2 id="相关问题">相关问题</h2>
 <h4 id="安装redis执行make-test时遇到you-need-tcl-85-or-newer-in-order-to-run-the-redis-test"><strong>安装Redis，执行make test时遇到You need tcl 8.5 or newer in order to run the Redis test</strong></h4>
 <p>  <img
@@ -364,24 +362,24 @@ http://download.redis.io/releases/"/>
 <h4 id="解决方案安装tcl"><strong>解决方案</strong>：安装tcl</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback"> yum install tcl
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> yum install tcl
+</span></span></code></pre></td></tr></table>
 </div>
-</div><p><br /></p>
+</div><br />
 <h4 id="dumprdb-文件位置"><strong>dump.rdb 文件位置</strong></h4>
 <ol>
 <li>查看dump.rdb的位置</li>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback"> find / -name dump.rdb
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"> find / -name dump.rdb
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>​   显示为<code>/dump.rdb</code></p>
 <ol start="2">
@@ -400,39 +398,39 @@ http://download.redis.io/releases/"/>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">  mkdir -p /data/redis
-  mv /dump.rdb /data/redis/
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  mkdir -p /data/redis
+</span></span><span class="line"><span class="cl">  mv /dump.rdb /data/redis/
+</span></span></code></pre></td></tr></table>
 </div>
 </div><ol start="6">
 <li>启动redis服务</li>
 </ol>
-<p><br />
-<br /></p>
+<br />
+<br />
 <h2 id="参考">参考</h2>
 <h4 id="安装-1"><strong>安装</strong></h4>
-<p><a href="https://blog.csdn.net/gs_albb/article/details/92022693">https://blog.csdn.net/gs_albb/article/details/92022693</a></p>
-<p><a href="https://blog.csdn.net/qq_36737803/article/details/90578860">https://blog.csdn.net/qq_36737803/article/details/90578860</a></p>
-<p><a href="https://www.cnblogs.com/therunningfish/p/9535022.html">https://www.cnblogs.com/therunningfish/p/9535022.html</a></p>
+<p><a href="https://blog.csdn.net/gs_albb/article/details/92022693" target="_blank" rel="noopener noreffer">https://blog.csdn.net/gs_albb/article/details/92022693</a></p>
+<p><a href="https://blog.csdn.net/qq_36737803/article/details/90578860" target="_blank" rel="noopener noreffer">https://blog.csdn.net/qq_36737803/article/details/90578860</a></p>
+<p><a href="https://www.cnblogs.com/therunningfish/p/9535022.html" target="_blank" rel="noopener noreffer">https://www.cnblogs.com/therunningfish/p/9535022.html</a></p>
 <h4 id="相关问题-1"><strong>相关问题</strong></h4>
-<p><a href="https://www.cnblogs.com/zhaoshunjie/p/5907029.html">https://www.cnblogs.com/zhaoshunjie/p/5907029.html</a></p>
-<p><a href="https://blog.csdn.net/shn1994/article/details/86527283">https://blog.csdn.net/shn1994/article/details/86527283</a></p></div><div class="post-footer" id="post-footer">
+<p><a href="https://www.cnblogs.com/zhaoshunjie/p/5907029.html" target="_blank" rel="noopener noreffer">https://www.cnblogs.com/zhaoshunjie/p/5907029.html</a></p>
+<p><a href="https://blog.csdn.net/shn1994/article/details/86527283" target="_blank" rel="noopener noreffer">https://blog.csdn.net/shn1994/article/details/86527283</a></p></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>本文于 2020-05-02 更新&nbsp;<a class="git-hash" href="https://github.com/lrioo/commit/8d700ac8e3f87ca8cd7ca4fd6fe78cffb7ec22a1" target="_blank" title="commit by rio(979491626@qq.com) 8d700ac8e3f87ca8cd7ca4fd6fe78cffb7ec22a1: love it">
-                                <i class="fas fa-hashtag fa-fw"></i>8d700ac</a></span>
+                <span>本文于 2020-05-05 更新&nbsp;<a class="git-hash" href="https://github.com/lrioo/commit/b556f0e21e52d1e1867dd662631a2b5bfe55b4fc" target="_blank" title="commit by rio(979491626@qq.com) b556f0e21e52d1e1867dd662631a2b5bfe55b4fc: delete">
+                                <i class="fas fa-hashtag fa-fw"></i>b556f0e</a></span>
             </div>
             <div class="post-info-license"></div>
         </div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://lrioo.github.io/2017/redis-install/" data-title="Redis安装"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://localhost:1313/2017/redis-install/" data-title="Redis安装"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="http://localhost:1313/2017/redis-install/" data-title="Redis安装" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="http://localhost:1313/2017/redis-install/" data-title="Redis安装"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -446,11 +444,9 @@ http://download.redis.io/releases/"/>
 
     <div class="post-nav"><a href="/2017/welcome/" class="prev" rel="prev" title="Welcome"><i class="fas fa-angle-left fa-fw"></i>Welcome</a></div>
 </div>
-<div id="comments"><div id="valine" class="comment"></div><noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
-            </noscript></div></article></div>
+</article></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Rio</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Rio</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
@@ -459,7 +455,7 @@ http://download.redis.io/releases/"/>
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/valine/valine.min.css"><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript">
-    window.config = {"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{"valine":{"appId":"QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI","appKey":"WBmoGyJtbqUswvfLh6L8iEBr","avatar":"mp","el":"#valine","enableQQ":false,"highlight":true,"lang":"zh-cn","pageSize":10,"placeholder":"你的评论 ...","recordIP":true,"visitor":true}},"headerMode":{"desktop":"auto","mobile":"auto"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","noResultsFound":"没有找到结果","type":"algolia"},"twemoji":true};
-</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/valine/Valine.min.js"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/katex/copy-tex.min.css"><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{},"headerMode":{"desktop":"auto","mobile":"auto"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"algoliaAppID":"PASDMWALPK","algoliaIndex":"index.zh-cn","algoliaSearchKey":"b42948e51daaa93df92381c8e2ac0f93","noResultsFound":"没有找到结果","type":"algolia"},"twemoji":true};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/twemoji/twemoji.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/mhchem.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
