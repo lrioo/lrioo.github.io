@@ -18,8 +18,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl">  <span class="n">cd</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span>
-</span></span><span class="line"><span class="cl">  <span class="n">wget</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">download</span><span class="o">.</span><span class="n">redis</span><span class="o">.</span><span class="n">io</span><span class="o">/</span><span class="n">releases</span><span class="o">/</span><span class="n">redis</span><span class="o">-</span><span class="mf">5.0</span><span class="o">.</span><span class="mf">5.</span><span class="n">tar</span><span class="o">.</span><span class="n">gz</span>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">  <span class="nb">cd</span> /usr/local
+</span></span><span class="line"><span class="cl">  wget http://download.redis.io/releases/redis-5.0.5.tar.gz
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><a href="http://download.redis.io/releases/" target="_blank" rel="noopener noreffer">历史版本库地址</a></p>

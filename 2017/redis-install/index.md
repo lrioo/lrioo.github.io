@@ -5,7 +5,7 @@
 
 官网下载最新版本的安装包
 
-```language-bash
+```shell
   cd /usr/local
   wget http://download.redis.io/releases/redis-5.0.5.tar.gz
 ```
@@ -22,7 +22,7 @@
 
 ### **第一步**：解压
 
-```language-bash
+```shell
   cd /usr/local
   tar -zxvf redis-5.0.5.tar.gz
   mv redis-5.0.5 redis
@@ -30,20 +30,20 @@
 
 ### **第二步**：安装 gcc 环境 
 
-```language-bash
+```shell
   yum install gcc-c++
 ```
 
 ### **第三步**：编译
 
-```language-bash
+```shell
   cd /usr/local/redis
   make
 ```
 
 ### **第四步**：安装
 
-```language-bash
+```shell
   cd /usr/local/redis/src
   make install
 ```
@@ -61,20 +61,20 @@
 
   &emsp;&emsp;将图中的内容修改为当前部署环境的真实路径即可。
 
-```language-bash
+```shell
   vim /usr/local/redis/utils/redis_init_script
 ```
 
 
 2. #### 将redis_init_script拷贝到/etc/init.d目录下，并重命名为redis
 
-  ```language-bash
+  ```shell
     cp /usr/local/redis/utils/redis_init_script /etc/init.d/redis
   ```
 
 ### **第二步**：修改配置文件
 
-```language-bash
+```shell
  vim /usr/local/redis/redis.conf
 ```
 
@@ -88,7 +88,7 @@
 
 ### **第三步**：创建配置文件目录，并迁移文件
 
-```language-bash
+```shell
   mkdir -p /etc/conf/redis
   cp /usr/local/redis/redis.conf /etc/conf/redis/6379.conf
 ```
@@ -115,7 +115,7 @@
 
 #### **解决方案**：安装tcl
 
-```language-bash
+```shell
  yum install tcl
 ```
 
@@ -125,7 +125,7 @@
 
 1. 查看dump.rdb的位置
 
-```language-bash
+```shell
  find / -name dump.rdb
 ```
 
@@ -139,7 +139,7 @@
 
 5. 创建文件夹，并将dump.rdb文件移动到相应的文件夹下
 
-```language-bash
+```shell
   mkdir -p /data/redis
   mv /dump.rdb /data/redis/
 ```
