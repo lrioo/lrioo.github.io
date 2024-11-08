@@ -57,7 +57,7 @@
 
 1. #### 修改redis内置的启动脚本
 
-  &emsp;&emsp;&emsp;&emsp;![img](https://raw.githubusercontent.com/lrioo/blog_image/master/image/posts/redis_install/01.png)
+  &emsp;&emsp;&emsp;&emsp;![img](/images/redis_install/01.png)
 
   &emsp;&emsp;将图中的内容修改为当前部署环境的真实路径即可。
 
@@ -111,7 +111,7 @@
 
 #### **安装Redis，执行make test时遇到You need tcl 8.5 or newer in order to run the Redis test**
 
-&emsp;&emsp;![img](https://raw.githubusercontent.com/lrioo/blog_image/master/image/posts/redis_install/02.png)
+&emsp;&emsp;![img](/images/redis_install/02.png)
 
 #### **解决方案**：安装tcl
 
